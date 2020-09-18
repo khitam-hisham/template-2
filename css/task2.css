@@ -1,0 +1,187 @@
+/* comman */
+
+
+/* Blog-Page sections
+ */
+
+
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.continer {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: montserrat, sans-serif;
+}
+
+button {
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-transform: capitalize;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* header */
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin-top: -70px;
+    border: 1px solid #eee;
+}
+
+.header .logo {
+    width: 40%;
+    float: left;
+}
+
+.header .logo img {
+    width: 20%;
+    margin-top: 15px;
+}
+
+.header .nav {
+    width: 60%;
+    float: left;
+    list-style: none;
+    text-align: right;
+}
+
+.header .nav>li {
+    display: inline-block;
+    text-align: right;
+}
+
+.header .nav>li>a {
+    color: #000;
+    font-size: 16px;
+    padding: 15px 15px;
+    display: block;
+}
+
+.header .nav>li>a.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #6195ff;
+    transition: width 0.5s;
+    margin-top: 2px;
+}
+
+.header .nav>li>a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #6195ff;
+    transition: width 0.5s;
+    margin-top: 2px;
+}
+
+.header .nav>li>a:hover::after {
+    width: 100%;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: #6195ff;
+    width: 150px;
+    text-align: center;
+    left: -50%;
+    top: 70%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Blog-Page-section */
+
+.Blog-Page {
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 150px;
+    margin-top: 70px;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+.Blog-Page .Blog-Page-title {
+    text-transform: capitalize;
+    width: 40%;
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.Blog-Page .Blog-Page-list {
+    width: 60%;
+    float: float;
+    text-align: right;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.Blog-Page .Blog-Page-list .list {
+    display: inline-block;
+    text-align: right;
+    font-size: 16px;
+}
+
+.Blog-Page .Blog-Page-list a {
+    color: #6195ff;
+}
+
+.Blog-Page .Blog-Page-list .lis {
+    color: #999;
+}

@@ -1,0 +1,410 @@
+.pd-y {
+    padding: 60px 0;
+}
+
+.section-header {
+    text-align: left;
+    padding: 10px 0 20px 0;
+}
+
+.section-header .section-title {
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.section-header .line {
+    display: block;
+    height: 5px;
+    width: 50px;
+    margin: 10px 0 0 0;
+    background-color: #6195ff;
+}
+
+hr {
+    width: 60%;
+    color: #f9f9f9;
+}
+
+
+/* category */
+
+.blog-info {
+    width: 70%;
+    float: left;
+    padding-top: 100px;
+    text-align: left;
+    margin: 50px;
+}
+
+.category {
+    width: 30%;
+    float: left;
+    padding-top: 100px;
+    margin-left: -90px;
+    text-align: left;
+    margin: 50px -180px 0;
+}
+
+.blog-info img {
+    width: 80%;
+    height: 60%;
+}
+
+.blog-info .blog-list li {
+    display: inline-block;
+    font-size: 15px;
+    color: #333;
+}
+
+.blog-info .blog-list li i {
+    color: #6195ff;
+    font-size: 15px;
+}
+
+.blog-info .blog-title {
+    padding: 15px;
+}
+
+.blog-info .blog-desc {
+    font-size: 15px;
+    width: 80%;
+    color: #999;
+}
+
+.category .category-input {
+    border: 0;
+    background-color: #eee;
+    height: 30px;
+    width: 200px;
+}
+
+.category button {
+    border: 0;
+    background-color: #eee;
+    margin-left: -22px;
+    color: #6195ff;
+    height: 30px;
+}
+
+.category .head-link {
+    color: #333;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.category .head-link1 {
+    color: #6195ff;
+    float: right;
+    width: 49%;
+}
+
+.category .head-link:hover {
+    color: #6195ff;
+}
+
+.populare-posts {
+    text-align: left;
+    display: block;
+}
+
+.populare-post {
+    padding: 10% 10% 10% 3%;
+    width: 100%;
+}
+
+.populare-post img {
+    width: 30%;
+    height: 12%;
+    float: left;
+}
+
+.populare-post a {
+    color: #333;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.populare-post .blog-list {
+    width: 60%;
+    text-transform: capitalize;
+}
+
+.populare-post .blog-list li {
+    display: inline-block;
+    color: #6195ff;
+    padding: 0 3px;
+    font-size: 12px;
+}
+
+
+/* tags section */
+
+.tags {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 40px;
+    text-align: left;
+}
+
+.tag {
+    display: inline-block;
+}
+
+.tag .tag-text {
+    font-weight: bold;
+}
+
+.tag a {
+    display: inline-block;
+    background-color: #eee;
+    width: 80px;
+    height: 30px;
+    color: #333;
+    font-size: 11px;
+    text-align: center;
+    padding: 7px 0;
+}
+
+.tag a i {
+    color: #6195ff;
+}
+
+.tag a:hover,
+.tag a i:hover {
+    background-color: #6195ff;
+    color: #fff;
+}
+
+.tag-j {
+    border: 1px solid #eee;
+    padding: 3%;
+    padding-bottom: 70px;
+    margin-top: 30px;
+    width: 60%;
+    float: left;
+}
+
+.tag-j img {
+    top: 5%;
+    left: 5%;
+    width: 20%;
+    height: 18%;
+    float: left;
+}
+
+.tag-j-title {
+    text-align: center;
+    width: 40%;
+    float: left;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.tag-j .tag-j-list {
+    display: inline-block;
+    width: 40%;
+}
+
+.tag-j .tag-j-list li {
+    float: right;
+    padding: 1%;
+}
+
+.tag-j .tag-j-list li a {
+    background: #6195ff;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.tag-j .tag-j-list li a i {
+    color: #fff;
+}
+
+.tag-j-line {
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 10px auto 0 auto;
+    background-color: #eee;
+}
+
+.tag-j-desc {
+    color: #999;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: .5;
+}
+
+.tag-s {
+    float: left;
+    width: 20%;
+    margin-left: 20px;
+}
+
+.tag-text1 {
+    font-weight: bold;
+}
+
+.tag-s a {
+    margin: 2px;
+}
+
+
+/* comments */
+
+.comments {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.comment1 {
+    border: 1px solid #eee;
+    width: 70%;
+    float: left;
+    height: 20%;
+}
+
+.comment1 img {
+    width: 16%;
+    height: 60%;
+    top: 5%;
+    left: 5%;
+    margin: 4%;
+    float: left;
+}
+
+.comment1 .comment-title,
+.comment-text,
+.comment-link {
+    text-transform: uppercase;
+    padding: 5% 10px 10px 10px;
+}
+
+.comment1 .comment-title,
+.comment-text {
+    float: left;
+}
+
+.comment-link {
+    float: right;
+    color: #6195ff;
+    font-size: 12px;
+}
+
+.comment-text {
+    color: #999;
+    font-size: 12px;
+}
+
+.comment-desc {
+    width: 70%;
+    float: left;
+    line-height: 1.5;
+    color: #999;
+    letter-spacing: .8;
+    display: block;
+}
+
+.comment2 {
+    border: 2px solid #6195ff;
+}
+
+
+/* form */
+
+.Leave-a-reply {
+    margin-left: 50px;
+    padding-left: 40px;
+    margin-top: 5%;
+    width: 100%;
+    float: left;
+}
+
+.contact-form {
+    width: 50%;
+    text-align: left;
+    /* margin: auto; */
+    margin-top: 30px;
+}
+
+.contact-form .input {
+    display: inline-block;
+    border: 0;
+    border-radius: 5%;
+    padding: 8px;
+    margin: 10px 10px;
+    background-color: #eee;
+    color: rgb(163, 147, 147);
+    width: 50%;
+}
+
+.contact-form .f-in {
+    width: 300px;
+    height: 30px;
+}
+
+.contact-form .s-in {
+    width: 600px;
+    height: 30px;
+}
+
+.contact-form .t-in {
+    width: 600px;
+    height: 60px;
+}
+
+.contact-form .btn {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    background-color: #6195ff;
+    border: 0;
+    color: #fff;
+    border-radius: 5%;
+    display: block;
+    margin-bottom: 10%;
+    /* margin: 15px auto 0 auto; */
+}
+
+
+/* footer section */
+
+.footer {
+    background-color: #1C1D21;
+    text-align: center;
+    padding: 60px 0;
+    width: 110%;
+    float: left;
+}
+
+.footer-linkes {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.footer-linkes li {
+    display: inline-block;
+}
+
+.footer-linkes li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #6195ff;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.footer-linkes li a i {
+    line-height: 50px;
+}
+
+.footer-desc {
+    color: #999;
+    font-size: 15px;
+    text-transform: uppercase;
+}

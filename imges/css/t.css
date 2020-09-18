@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-header .section-title {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.section-header .line {
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #6195ff;
+    margin: 0 auto 70px auto;
+}
+
+.pd_y {
+    padding: 100px 0;
+}
+
+.services-content {
+    overflow: hidden;
+    margin-left: 210px;
+}
+
+.services-item {
+    width: 17%;
+    float: left;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    padding: 10px 45px;
+}
+
+.services-item .icons {
+    color: #6195ff;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    float: left;
+}
+
+.services-item i {
+    width: 20px;
+    height: 10px;
+}
+
+.services-item-title {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    transition: color 0.5s;
+    font-size: 20px;
+}
+
+.services-item-desc {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 15px;
+}
+
+.services-item:hover .services-item-title {
+    color: #fff;
+}
+
+.ltr-effect {
+    position: relative;
+}
+
+.ltr-effect:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    z-index: -1;
+    transition: width 0.5s
+}
+
+.ltr-effect:hover:after {
+    width: 100%;
+}
